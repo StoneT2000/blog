@@ -46,15 +46,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/logo512.png"
+    favicon16x16: "/logo512.png"
+    favicon32x32: "/logo512.png"
+    apple_touch_icon: "/logo512.png"
+    safari_pinned_tab: "/logo512.png"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "Stone's Blog"
+    icon: "/logo512.png"
     iconHeight: 35
 
   # profile-mode
@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "🌊 Blog!"
-    Content: I mostly blog about AI, Reinforcement Learning, and AI competitions. Sometimes there's some art or movies/tv shows thrown in the mix. To be updated on when I make new blog posts, follow me on twitter!
+    Content: I mostly blog about AI, Reinforcement Learning, and AI competitions. Sometimes there's some art or movies/tv shows thrown in the mix. To be updated on when I make new blog posts, follow me on twitter! Other than this blog, I'm a rising senior at UCSD doing research in RL and Robotics, and I also run the Lux AI Challenge.
 
   socialIcons:
     - name: twitter
@@ -83,7 +83,7 @@ params:
     - name: github
       url: "https://github.com/StoneT2000"
     - name: other
-      url: "https://www.linkedin.com/in/stonet2000/"
+      url: "https://scholar.google.com/citations?user=GAMO0EwAAAAJ&hl=en"
     - name: LinkedIn
       url: "https://www.linkedin.com/in/stonet2000/"
 
@@ -121,10 +121,10 @@ menu:
       name: search
       url: /search/
       weight: 1
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
     - identifier: tags
       name: tags
       url: /tags/

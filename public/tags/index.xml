@@ -10,13 +10,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://blog.stoneztao.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Dec 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://blog.stoneztao.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>first</title>
-      <link>https://blog.stoneztao.com/tags/first/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <title>AI</title>
+      <link>https://blog.stoneztao.com/tags/ai/</link>
+      <pubDate>Wed, 15 Dec 2021 11:30:03 +0000</pubDate>
       
-      <guid>https://blog.stoneztao.com/tags/first/</guid>
+      <guid>https://blog.stoneztao.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decision Trees</title>
+      <link>https://blog.stoneztao.com/tags/decision-trees/</link>
+      <pubDate>Wed, 15 Dec 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/tags/decision-trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Undergrad</title>
+      <link>https://blog.stoneztao.com/tags/undergrad/</link>
+      <pubDate>Mon, 22 Mar 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/tags/undergrad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competition</title>
+      <link>https://blog.stoneztao.com/tags/competition/</link>
+      <pubDate>Sun, 21 Feb 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/tags/competition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movies/TV</title>
+      <link>https://blog.stoneztao.com/tags/movies/tv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/tags/movies/tv/</guid>
       <description></description>
     </item>
     

@@ -10,14 +10,50 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://blog.stoneztao.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Dec 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://blog.stoneztao.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My 1st post</title>
-      <link>https://blog.stoneztao.com/test/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <title>High Precision Function Approximation With Decision Trees and Neural Networks</title>
+      <link>https://blog.stoneztao.com/posts/nn-fnc-approx/</link>
+      <pubDate>Wed, 15 Dec 2021 11:30:03 +0000</pubDate>
       
-      <guid>https://blog.stoneztao.com/test/</guid>
-      <description>Desc Text.</description>
+      <guid>https://blog.stoneztao.com/posts/nn-fnc-approx/</guid>
+      <description>While at QuantCo, I worked on a function approximation problem with high dimensionality and many discontinuities. I introduce some of our work that tackles these problems using decision trees, neural networks, and more.</description>
+    </item>
+    
+    <item>
+      <title>A Survey of AI Programming Challenges</title>
+      <link>https://blog.stoneztao.com/posts/ai-challenge-survey/</link>
+      <pubDate>Sun, 20 Jun 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/ai-challenge-survey/</guid>
+      <description>I analyze the spectrum of AI programming challenges such as Halite, Battlecode, and Screeps. Additionally I also analyze my own competition I helped build with my team called the Lux AI Challenge.</description>
+    </item>
+    
+    <item>
+      <title>How to Survive a Graduate Course as an Undergrad</title>
+      <link>https://blog.stoneztao.com/posts/grad-courses/</link>
+      <pubDate>Mon, 22 Mar 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/grad-courses/</guid>
+      <description>I share my experiences taking a graduate computer vision course, and discuss why you should take graduate courses, how to succeed/survive in one, tips on deep-learning courses, and tips on enrolling in graduate courses at UCSD.</description>
+    </item>
+    
+    <item>
+      <title>Battlecode 2021 Postmortem</title>
+      <link>https://blog.stoneztao.com/posts/bc21/</link>
+      <pubDate>Sun, 21 Feb 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/bc21/</guid>
+      <description>My Battlecode 2021 Post Mortem. This time however, the post will focus more on general ideas and concepts I found through competingin the annual 1 month AI programming sprint. It will still have the traditional &amp;#34;Battlecode Timeline&amp;#34; and also includes my evaluation of the Battlecode design.</description>
+    </item>
+    
+    <item>
+      <title>The Beauty and Brilliance of Tales From the Loop</title>
+      <link>https://blog.stoneztao.com/posts/talesfromtheloop/</link>
+      <pubDate>Sun, 20 Dec 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/talesfromtheloop/</guid>
+      <description>Tales From the Loop, an artbook by Simon Stålenhag turned TV series speaks volumes about leaving the unexplained unexplained, and coming to terms with everything. In this post I explore the beauty and brilliance behind it.</description>
     </item>
     
     

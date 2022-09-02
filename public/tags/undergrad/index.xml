@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Undergrad on Stone&#39;s Blog</title>
+    <link>https://blog.stoneztao.com/tags/undergrad/</link>
+    <description>Recent content in Undergrad on Stone&#39;s Blog</description>
+    <image>
+      <url>https://blog.stoneztao.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.stoneztao.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Mar 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://blog.stoneztao.com/tags/undergrad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Survive a Graduate Course as an Undergrad</title>
+      <link>https://blog.stoneztao.com/posts/grad-courses/</link>
+      <pubDate>Mon, 22 Mar 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/grad-courses/</guid>
+      <description>I share my experiences taking a graduate computer vision course, and discuss why you should take graduate courses, how to succeed/survive in one, tips on deep-learning courses, and tips on enrolling in graduate courses at UCSD.</description>
+    </item>
+    
+  </channel>
+</rss>

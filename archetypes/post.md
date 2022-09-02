@@ -1,7 +1,7 @@
 ---
 ### REMEMBER TO CHANGE ###
 title: "My 1st post"
-date: 2020-12-20T11:30:03+00:00
+date: 2021-12-20T11:30:03+00:00
 tags: ["draft"]
 description: "Desc Text."
 author: "Stone Tao"
@@ -22,7 +22,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true

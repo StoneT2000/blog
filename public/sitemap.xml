@@ -2,19 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.stoneztao.com/tags/first/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>https://blog.stoneztao.com/tags/ai/</loc>
+    <lastmod>2021-12-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://blog.stoneztao.com/test/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>https://blog.stoneztao.com/tags/decision-trees/</loc>
+    <lastmod>2021-12-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.stoneztao.com/posts/nn-fnc-approx/</loc>
+    <lastmod>2021-12-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.stoneztao.com/posts/</loc>
+    <lastmod>2021-12-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://blog.stoneztao.com/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <lastmod>2021-12-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://blog.stoneztao.com/tags/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <lastmod>2021-12-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.stoneztao.com/posts/ai-challenge-survey/</loc>
+    <lastmod>2021-06-20T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.stoneztao.com/posts/grad-courses/</loc>
+    <lastmod>2021-03-22T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.stoneztao.com/tags/undergrad/</loc>
+    <lastmod>2021-03-22T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.stoneztao.com/posts/bc21/</loc>
+    <lastmod>2021-02-21T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.stoneztao.com/tags/competition/</loc>
+    <lastmod>2021-02-21T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.stoneztao.com/posts/talesfromtheloop/</loc>
+    <lastmod>2020-12-20T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://blog.stoneztao.com/categories/</loc>
+  </url><url>
+    <loc>https://blog.stoneztao.com/tags/movies/tv/</loc>
   </url><url>
     <loc>https://blog.stoneztao.com/search/</loc>
   </url>

@@ -2,7 +2,7 @@
 ### REMEMBER TO CHANGE ###
 title: "The Beauty and Brilliance of Tales From the Loop"
 date: 2020-12-20T11:30:03+00:00
-tags: ["draft"]
+tags: ["Movies/TV"]
 description: "Tales From the Loop, an artbook by Simon Stålenhag turned TV series speaks volumes about leaving the unexplained unexplained, and coming to terms with everything. In this post I explore the beauty and brilliance behind it."
 author: "Stone Tao"
 # author: ["Me", "You"] # multiple authors
@@ -23,7 +23,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true

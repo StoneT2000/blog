@@ -1,1 +1,0 @@
-I analyze the spectrum of AI programming challenges such as Halite, Battlecode, and Screeps. Additionally I also analyze my own competition I helped build with my team called the Lux AI Challenge.

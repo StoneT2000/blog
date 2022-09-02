@@ -2,7 +2,7 @@
 ### REMEMBER TO CHANGE ###
 title: "A Survey of AI Programming Challenges"
 date: 2021-06-20T11:30:03+00:00
-tags: ["Movies/TV"]
+tags: ["AI", "Competition"]
 description: "I analyze the spectrum of AI programming challenges such as Halite, Battlecode, and Screeps. Additionally I also analyze my own competition I helped build with my team called the Lux AI Challenge."
 author: "Stone Tao"
 # author: ["Me", "You"] # multiple authors

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>draft on Stone&#39;s Blog</title>
+    <link>https://blog.stoneztao.com/tags/draft/</link>
+    <description>Recent content in draft on Stone&#39;s Blog</description>
+    <image>
+      <url>https://blog.stoneztao.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.stoneztao.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Dec 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://blog.stoneztao.com/tags/draft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My 1st post</title>
+      <link>https://blog.stoneztao.com/posts/jax-for-torch-users/</link>
+      <pubDate>Mon, 20 Dec 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/jax-for-torch-users/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -11,15 +11,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://blog.stoneztao.com/tags/movies/tv/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Survey of AI Programming Challenges</title>
-      <link>https://blog.stoneztao.com/posts/ai-challenge-survey/</link>
-      <pubDate>Sun, 20 Jun 2021 11:30:03 +0000</pubDate>
-      
-      <guid>https://blog.stoneztao.com/posts/ai-challenge-survey/</guid>
-      <description>I analyze the spectrum of AI programming challenges such as Halite, Battlecode, and Screeps. Additionally I also analyze my own competition I helped build with my team called the Lux AI Challenge.</description>
-    </item>
-    
-    <item>
       <title>The Beauty and Brilliance of Tales From the Loop</title>
       <link>https://blog.stoneztao.com/posts/talesfromtheloop/</link>
       <pubDate>Sun, 20 Dec 2020 11:30:03 +0000</pubDate>

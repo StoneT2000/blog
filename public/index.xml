@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Dec 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://blog.stoneztao.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Dec 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://blog.stoneztao.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My 1st post</title>
+      <link>https://blog.stoneztao.com/posts/jax-for-torch-users/</link>
+      <pubDate>Mon, 20 Dec 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/jax-for-torch-users/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
     <item>
       <title>High Precision Function Approximation With Decision Trees and Neural Networks</title>
       <link>https://blog.stoneztao.com/posts/nn-fnc-approx/</link>

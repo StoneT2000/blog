@@ -17,6 +17,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+math: true
 
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

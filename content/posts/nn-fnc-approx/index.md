@@ -61,7 +61,7 @@ Given some target function $f: \mathbb R^n \to \mathbb R^m$, approximate $f$ wit
 
 This function $f$ in our case is actually a giant file of code.
 
-<h2 id="Uniqueness">What separates this from a typical regression problem</h2>
+## What separates this from a typical regression problem
 
 The above problem statement may seem somewhat trivial and seem like a typical regression problem, but there are a lot of hidden hazards that increase the difficulty immensely.
 
@@ -119,7 +119,7 @@ These features of our project suddenly make 2nd order optimization algorithms mu
 
 With 2nd order optimization, a single deep neural net was able to achieve about 30% accuracy on test data in the project, meaning it predicted 30% of data points to within 1 of its true value. But this is about as far as it will go, and can't scale farther in any direction (model complexity, time, data etc.) without entering scaling problems or hitting a minimum. The major issue is that discontinuities reduce the performance of the neural net as it attempts to fit a smooth model over it, in addition to having major approximation errors around the discontinuities. I tackle this issue next.
 
-## Residual-Based Splitting">Residual-Based Splitting
+## Residual-Based Splitting
 
 We can treat any arbitrary function like our target function as being some piecewise smooth function if you split the input space into the right regions. So one solution is to identify the smooth regions of the input space and train a different function approximator that can achieve high precision and doesn't need to worry about fitting to discontinuities. Thus, the fundamental reason for using a Decision Tree for this problem is to **handle discontinuities**.
 

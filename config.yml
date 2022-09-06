@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: G-2403DLHESF
+googleAnalytics: G-NJ9BHX42F3
 
 minify:
   disableXML: true
@@ -20,7 +20,7 @@ params:
   title: Stone's Blog!
   description: "Stone Tao's blog on AI, RL, and what he's working on."
   keywords: [AI, Reinforcement Learning, Blog, Robotics]
-  author: Me
+  author: Stone Tao
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"

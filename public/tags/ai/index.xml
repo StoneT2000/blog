@@ -21,12 +21,30 @@
     </item>
     
     <item>
+      <title>A Survey of AI Programming Challenges</title>
+      <link>https://blog.stoneztao.com/posts/ai-challenge-survey/</link>
+      <pubDate>Sun, 20 Jun 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/ai-challenge-survey/</guid>
+      <description>I analyze the spectrum of AI programming challenges such as Halite, Battlecode, and Screeps. Additionally I also analyze my own competition I helped build with my team called the Lux AI Challenge.</description>
+    </item>
+    
+    <item>
       <title>How to Survive a Graduate Course as an Undergrad</title>
       <link>https://blog.stoneztao.com/posts/grad-courses/</link>
       <pubDate>Mon, 22 Mar 2021 11:30:03 +0000</pubDate>
       
       <guid>https://blog.stoneztao.com/posts/grad-courses/</guid>
       <description>I share my experiences taking a graduate computer vision course, and discuss why you should take graduate courses, how to succeed/survive in one, tips on deep-learning courses, and tips on enrolling in graduate courses at UCSD.</description>
+    </item>
+    
+    <item>
+      <title>Robot Environments Tierlist</title>
+      <link>https://blog.stoneztao.com/posts/robotics-env-tierlist/</link>
+      <pubDate>Mon, 22 Mar 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/robotics-env-tierlist/</guid>
+      <description>I have a lot of frustration in figuring out what the state of the art is for a particular environment and what environments should be tested on and why certain methods do well on one complicated looking environment but poorly on supposedly easy looking environments. To address that, I talk about the various characteristics of robotics environments and construct a robotics environments tierlist off of that.</description>
     </item>
     
     <item>

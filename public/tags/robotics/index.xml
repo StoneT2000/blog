@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Robotics on Stone&#39;s Blog</title>
+    <link>https://blog.stoneztao.com/tags/robotics/</link>
+    <description>Recent content in Robotics on Stone&#39;s Blog</description>
+    <image>
+      <url>https://blog.stoneztao.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.stoneztao.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Mar 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://blog.stoneztao.com/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robot Environments Tierlist</title>
+      <link>https://blog.stoneztao.com/posts/robotics-env-tierlist/</link>
+      <pubDate>Mon, 22 Mar 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/robotics-env-tierlist/</guid>
+      <description>I have a lot of frustration in figuring out what the state of the art is for a particular environment and what environments should be tested on and why certain methods do well on one complicated looking environment but poorly on supposedly easy looking environments. To address that, I talk about the various characteristics of robotics environments and construct a robotics environments tierlist off of that.</description>
+    </item>
+    
+  </channel>
+</rss>

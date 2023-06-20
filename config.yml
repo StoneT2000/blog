@@ -2,7 +2,9 @@ baseURL: https://blog.stoneztao.com/
 languageCode: en-us
 title: Stone's Blog
 paginate: 5
-theme: PaperMod
+theme: 
+- PaperMod
+- math
 
 enableRobotsTXT: true
 buildDrafts: false

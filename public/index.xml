@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Robot Environments Tierlist</title>
+      <link>https://blog.stoneztao.com/posts/robotics-env-tierlist/</link>
+      <pubDate>Mon, 22 Mar 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.stoneztao.com/posts/robotics-env-tierlist/</guid>
+      <description>I have a lot of frustration in figuring out what the state of the art is for a particular environment and what environments should be tested on and why certain methods do well on one complicated looking environment but poorly on supposedly easy looking environments. To address that, I talk about the various characteristics of robotics environments and construct a robotics environments tierlist off of that.</description>
+    </item>
+    
+    <item>
       <title>Battlecode 2021 Postmortem</title>
       <link>https://blog.stoneztao.com/posts/bc21/</link>
       <pubDate>Sun, 21 Feb 2021 11:30:03 +0000</pubDate>

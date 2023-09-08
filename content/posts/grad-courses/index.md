@@ -50,27 +50,31 @@ These research-centric ones include the CSE 291's at UCSD.
 
 I took CSE 291-I at UCSD in the 2021 winter quarter (UCSD is a 3 quarter system). It's definitely not a course you can easily just walk through, given the fact that the content covers research published as recently as a few months ago, with assignments relying on research as early as 2 years ago.
 
-In this post, I'll talk about [what I learned from this course](#What-I-Learned-a), [why I recommend graduate courses](#Why-Take-Graduate-Courses?-a), and [how one could succeed](#How-to-Succeed-a) in such a demanding course. To cap it off, for my fellow UCSD students, I detail about [how to enroll in graduate courses](#Enrolling-in-Graduate-Courses-a) given the fact that graduate students all get priority and, sometimes it's not clear as to what courses might be a good fit.
+In this post, I'll talk about [what I learned from this course](#what-i-learned), [why I recommend graduate courses](#why-take-graduate-courses), and [how one could succeed](#how-to-succeed) in such a demanding course. To cap it off, for my fellow UCSD students, I detail about [how to enroll in graduate courses](#enrolling-in-graduate-Courses) given the fact that graduate students all get priority and, sometimes it's not clear as to what courses might be a good fit.
 
-<h2 id='What-I-Learned'>What I Learned</h2>
+## What I Learned
 
 CSE 291-I is a course at the intersection of geometry and machine learning. I learned a ton from **differential geometry**, the mathematics of rotation, SO(3), relevant optimizations algorithms, to **classical and deep learning approaches** to tasks such as 3D object segmentation, detection, and pose estimation. The course also introduced me to a lot of terminology and concepts necessary for understanding and working in the 3D computer vision field and brought in tons of top researchers in the field to give talks about their work such as human pose estimation by [Angjoo Kanazawa](https://people.eecs.berkeley.edu/~kanazawa/) (Berkeley, Google Research) and 3D detection by [Charles Qi](https://web.stanford.edu/~rqi/) (Stanford, Waymo).
 
 This course at its core is math and programming heavy, with the homework being effectively solving math problems and programming models to solve a particular task like segmentation or pose estimation. What made it really fun was that there was a live benchmarking site where we submit our model's predictions to be ranked against everyone else in the course. At the end, after the final project, I effectively got to build a full 3D object pose estimation pipeline that takes as input just RGB-D (RGB and depth) data and various other metadata to predict poses of objects. 
 
-<img src="thumb.png" alt="Pose estimation task"/>
+{{< rawhtml >}}
+    <img src="thumb.png" alt="Pose estimation task"></img><p class="caption">A pose estimation task where the model must predict 3D bounding boxes around objects in a scene. I did quite well here!</p>
+{{< /rawhtml >}}
 
-<p class="caption">A pose estimation task where the model must predict 3D bounding boxes around objects in a scene. I did quite well here!</p>
 
 Obviously, just about every single PhD student from Hao Su's lab ranked top. Although I would be curious if they could predict object segmentations for some funny samples I found when fine-tuning a [Faster RCNN model](https://arxiv.org/abs/1506.01497):
 
-<img src="assets/impaledcup.png" alt="A screwdriver impaling a cup"/>
+{{< rawhtml >}}
+    <img src="assets/impaledcup.png" alt="A screwdriver impaling a cup"></img><p class="caption">I guess it's difficult to detect the correct objects when one of them is impaling the other 😆</p>
+{{< /rawhtml >}}
 
-<p class="caption">I guess it's difficult to detect the correct objects when one of them is impaling the other 😆</p>
+
+
 
 If you're interested, a full syllabus + most of the course slides can be found on the course website: https://haosulab.github.io/ml-meets-geometry/WI21/index.html
 
-<h2 id='Why-Take-Graduate-Courses?'>Why take Graduate Courses?</h2>
+## Why take Graduate Courses?
 
 There are a myriad of reasons aside from a graduate course looks great on your resume / grad school application. 
 
@@ -80,7 +84,7 @@ Apart from learning about the **literal frontier** of computer science, these gr
 
 Moreover, research-centric courses usually have a **smaller class size**, which often invites a lot of insightful discussion and more 1 on 1 interactions with the other students and the professors. Most of the other students and the professor will have more experience than you, so to learn from them is a great opportunity that you won't often get at an undergraduate course. 
 
-<h2 id='How-to-Succeed'>How to Succeed</h2>
+## How to Succeed
 
 Taking a graduate course has its many benefits, but at the end of the day it's not worthwhile if you can't do well in the course and/or ingest the content at a reasonable pace. These courses can be demanding. So here's a few general tips
 
@@ -106,7 +110,7 @@ And some tips for courses with a ton of programming around deep-learning. This a
 
 Last thing, be ok to jump ship and drop the course. Not all courses selected will turn out great for you and that's fine! Come back next quarter, or even next year. I promise you you won't be behind, the fact you might consider a graduate course as a undergraduate means you are way ahead of other students already and are not falling behind in terms of coursework.
 
-<h2 id='Enrolling-in-Graduate-Courses'>Enrolling in Graduate Courses</h2>
+## Enrolling in Graduate Courses
 
 There are two parts to enrolling in a graduate course. 
 
@@ -135,11 +139,6 @@ Now supposing all grad students are finished selecting their courses, if there i
 Now what might be more likely, there is a waitlist or there are just no spaces. Unfortunately, you will probably not get your authorization approved or even reviewed until all graduate students on the waitlist are removed. So considering this potential outcome, you should always reach out to the course professor **weeks in advance** and ask about whether it's possible for you to join the course and if not, ask if you can **audit** the course and join the lectures etc. Remember, in the end, a primary goal of taking graduate courses is **to learn**! Auditing is one way of doing it, albeit your homework and exams will not be graded.
 
 It helps to know the professor beforehand or any professor who can put a good word in for you. In my case, my professor for the grad course is also the PI of the lab I'm in, so that was not difficult to ask for enrollment authorization. Reaching out to the professor beforehand is a great way to demonstrate interest and most professors are more than happy to find potential new students for their courses and their labs. Otherwise, the advice above is some advice that I collected from talking to other students who enrolled in graduate courses.
-</br>
-</br>
-</br>
-</br>
-Anyway, blog post no.4 done, 
 
 🌊
 

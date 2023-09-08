@@ -48,7 +48,7 @@ This is my 4th year competing in MIT Battlecode. I previously competed as Bowl o
 
 This year I once again soloed my way to finals, achieving 9th overall, and to my surprise, won the "Adaptive Strategy" award for spearheading the development of a strategy known as "muck flanking." My team name was California Roll (however it's listed as Chop Suey online)
 
-Apparently a significant number of people read [my postmortem from last year](https://stonet2000.github.io/battlecode/2020/). Traffic to that post jumped by ~1000% for a few days and was quite high over the course of the competition. As a result, this incentivized me to write a better postmortem that isn't all about a single competition that most people won't understand without having competed in it. Instead, I decided to have a [gentler introduction](#A-Gentle-Introduction-a) that isn't a wall of text, and focus more on general points not specific to Battlecode 2021, but on Battlecode and AI programming competitions in general. I still include the traditional "timeline" format of Battlecode postmortems in a [later section](#The-Battlecode-2021-Timeline-a). I also now include my [evaluation](#My-Evaluation-a) of the year's design, it's features, what makes it good / interesting / fun, and what wasn't so great. If you want to read my unreadable code, it's here: https://github.com/StoneT2000/Battlecode2021/
+Apparently a significant number of people read [my postmortem from last year](https://stonet2000.github.io/battlecode/2020/). Traffic to that post jumped by ~1000% for a few days and was quite high over the course of the competition. As a result, this incentivized me to write a better postmortem that isn't all about a single competition that most people won't understand without having competed in it. Instead, I decided to have a [gentler introduction](#a-gentle-introduction) that isn't a wall of text, and focus more on general points not specific to Battlecode 2021, but on Battlecode and AI programming competitions in general. I still include the traditional "timeline" format of Battlecode postmortems in a [later section](#the-battlecode-2021-timeline). I also now include my [evaluation](#my-evaluation) of the year's design, it's features, what makes it good / interesting / fun, and what wasn't so great. If you want to read my unreadable code, it's here: https://github.com/StoneT2000/Battlecode2021/
 
 ## A Gentle Introduction
 
@@ -117,7 +117,8 @@ This section covers a intro on the 2021 iteration of Battlecode specs and how Ba
 
 This year, Battlecode 2021 was based around 4 units, Politicians, Muckrakers, Slanderers, and Enlightment Centers. The objective was to either have the most votes by the end of the 1500 round limit or to eliminate all opposition units from the field.
 
-{{ <figure src="units.png" alt="Battlecode 2021 units for blue and red teams" caption="Battlecode 2021's units. From left to right: Politicians, Muckrakers, Slanderers, Enlightment Centers" >}}
+
+{{< figure src="./units.png"  alt="Battlecode 2021 units for blue and red teams" caption="Battlecode 2021's units. From left to right: Politicians, Muckrakers, Slanderers, Enlightment Centers" >}}
 
 Each of these units had different properties and abilities that helped shaped the virtual political landscape as either party wrests for control of the map. All units have a certain circular vision radius, determining what local information is visibly available to the unit. Morerover, every unit can perform some acton each turn provided their cooldown is below 1. Different units increment cooldown more than others when performing actions.
 
@@ -157,13 +158,13 @@ Lastly, there are also the high school and newbie tournaments which are for high
 
 This year, there were quite a few spec changes, a lot of erratic behavior and RNG. So tldr; this is what happened
 
-{{<figure src="skill.png" alt="Battlecode in memes and my elo ranking graph" caption="The tldr; of Battlecode 2021 summed up in memes and my ranking graph">}}
+{{< figure src="skill.png" alt="Battlecode in memes and my elo ranking graph" caption="The tldr; of Battlecode 2021 summed up in memes and my ranking graph" >}}
 
 ### Sprint 1 - First 7 days - Muck Spam
 
 I had trouble understanding the specs a lot, so safe to say, I did very bad in sprint 1, getting knocked out due to a bidding issue that. But prior to sprint 1, some common observations surfaced. Cheap, 1 influence mucks were very efficient and can waste the opposition's influence as due to the function that determines a polis's conviction distribution when it empowers, it requires a minimum of 12 influence to destroy a 1 influence muck. Another thing that was observed was that as units can be built with variable influence from 1 to some max value, a more important resource is EC turns, not influence. EC turns referred to how many turns you got to use to build a unit that turn. Thus, having more ECs controlled meant you could dominate the map with tons of units that would force the opponent into a corner and win you the game.
 
-{{<figure src="sprint1-muck-spam.png" caption="My team in Red against team Blue Dragon, both emplyoing muck spam. However, Blue Dragon initially builds polis and slands that my muck spam instantly get rid of, resulting in my unit dominance">}}
+{{< figure src="sprint1-muck-spam.png" caption="My team in Red against team Blue Dragon, both emplyoing muck spam. However, Blue Dragon initially builds polis and slands that my muck spam instantly get rid of, resulting in my unit dominance" >}}
 
 As a result of these observations, many initial strategies were surrounding muck spam, and these worked quite well initially. The only downside of muck spam was that while a poli wastes a lot of influence to destroy 1 muck, due to empower mechanics it was quite good to focus on destroying 2 mucks or more at a time, which gives your team a EC turn advantage and thus a unit advantage.
 
@@ -189,15 +190,15 @@ Fortunately and unfortunately, this buff made me win games, but also lose games 
 
 Here's one between my bot against team babyducks. So while i have barely any units left, I got an extreme muck buff and have a total influence of `74785406` from summing up all the insane influence stored in my ECs. Meanwhile babyducks is severely losing with 400x less influence than me. But then my big ECs do this:
 
-{{<figure src="sprint2-bug1.png" alt="big poli built" >}}
+{{< figure src="sprint2-bug1.png" alt="big poli built" >}}
 
 They decide to build two giant politicians, one with 23,398,113 stored in it. That's a third of all my total influence. Then about 15 turns later because I used all my EC influence on those polis, that EC gets taken. So ok, maybe my big polis will just take a new EC and at least I'll still survive and that amount of extra influence will be transferred into the new EC and I can keep voting and ride out the last 300 rounds of the game. And great, this is actually what happened
 
-{{<figure src="sprint2-bug2.png" alt="My big polis take over the enemy EC and transfer lots of influence" >}}
+{{< figure src="sprint2-bug2.png" alt="My big polis take over the enemy EC and transfer lots of influence" >}}
 
 But here's the problem. That EC builds 2 slanderers using all of its 5.4 million influence. About 10 turns later, the total influence of both teams flips:
 
-{{<figure src="./flip.png" >}}
+{{< figure src="./flip.png" >}}
 
 The above happened in one turn as babyduck's nearby muck exposed both of my huge slanderers. Safe to say, I didn't win that match.
 
@@ -207,7 +208,7 @@ During the middle of this period, teh devs finally decided to lower the exponent
 
 This occured near the end of the sprint 1 period and early into sprint 2. People realized that muck spam isn't good enough since you can theoretically stop mucks and also gain unit count advantage using politicians and spending influence on slanderers to back up the cost of the politicians easily.
 
-{{<figure src="eco1.png" alt="proper economies developed by my team and team Producing Perfection ">}}
+{{< figure src="eco1.png" alt="proper economies developed by my team and team Producing Perfection " >}}
 
 The above is a game between Producing Perfection (blue) and me (red). Both of us have already realized that having some slands is better than none. However developing a economy is difficult because if one builds too many slands, you would be susceptible to being exposed by enemy mucks.
 
@@ -235,7 +236,7 @@ The idea is simple. Usually most teams send cheap mucks and buff mucks directly 
 
 Enter muck flanking. The idea is that flanking helps to send your mucks at the enemy EC from different directions instead of a single one. What this does is that it splits the focus of the enemy EC when trying to find one of your buff mucks to throw a defending buff poli at. Importantly, it also addresses the problem where enemy slands that are given early warning can run away out of sight as now with mucks coming in from different angles, there is less space for enemy slands to move out of sight and is much more likely to be seen by one of the mucks. Finally, it helps easily defeat teams that do not balance their politicians out and have gaps in their defences as flanking mucks have a higher probability of approaching the enemy EC from an unprotected angle.
 
-{{<figure src="flank1.png" alt="my flank strategy in motion" caption="A annotated screenshot of team babyducks (red) against me (blue) with my buff mucks circled and their movement directions, as well as general attack directions from my ECs to other ECs. The flanking in this match won me the game in the end">}}
+{{< figure src="flank1.png" alt="my flank strategy in motion" caption="A annotated screenshot of team babyducks (red) against me (blue) with my buff mucks circled and their movement directions, as well as general attack directions from my ECs to other ECs. The flanking in this match won me the game in the end" >}}
 
 This idea originally came about when I noticed in my matches I had scouting mucks that liked to traverse along the edges of the map as opposed to more optimal scouting of spaces it hasn't seen. As a result, they tended to come and find enemy ECs from behind or the side while my ECs were sending buff mucks directly at those enemy ECs. To my initial surprise, my team was easily exposing the enemy slands. This flankk strategy was quite effective and I tried to abuse it more by forcing my ECs to send buff mucks to travel the edges of the map and attack the enemy ECs and their slands from different angles. As you could see in the tldr; picture shown earlier, this helped me peak to 2nd place on the leaderboard as I demolished enemy slands one after another and easily got infinite influence.
 
@@ -288,7 +289,7 @@ In typical Battlecode fashion, defence is hard, attack is easy, hence spam and r
 #### "Exponential" growth
 
 Towards the start of finals, some teams began to decide to massively boost their economy by building even more slands. This can be seen in teams like babyducks, Nikola, and mine, where we decided to build more slands than polis to create "exponential" income growths and expand our economy alot. 
-{{<figure src="stonk.png" alt="my income growth against team Wololo, stonking up and recovery stonking" caption="Two income graphs of games between me (red) and team Wololo (blue). On the left I take very early control with a strong economy by building tons of slands. On the right, while I initially lose control, I keep regrowing the economy to do recovery growth and take win the game">}}
+{{< figure src="stonk.png" alt="my income growth against team Wololo, stonking up and recovery stonking" caption="Two income graphs of games between me (red) and team Wololo (blue). On the left I take very early control with a strong economy by building tons of slands. On the right, while I initially lose control, I keep regrowing the economy to do recovery growth and take win the game" >}}
 
 This strategy has it's downsides in that it's risky. It's very easy to lose slands. But I chose this strategy based on the fact that I assume if I build so many slands, I will have so much income that it won't matter if I lose some and I'll likely hit the other team's economy hard. This turns out to be fairly RNG and map dependent, as well as requiring good muck defence and some better micro code, which unfortunately wasn't the case with me as I lost to babyducks in the losers bracket of finals 5-0.
 
